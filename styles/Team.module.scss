@@ -9,6 +9,7 @@
 
 .title {
     font-size: 28px;
+    scroll-snap-align: start;
 }
 
 .contents {
@@ -20,6 +21,7 @@
 }
 
 .subsystem {
+    scroll-snap-align: start;
     min-height: 80vh;
     width: 100%;
     padding: 5%;
