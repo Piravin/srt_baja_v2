@@ -1,0 +1,65 @@
+[
+    {
+        "subsystem": "sys1",
+        "members": [
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            }
+        ]
+    },
+    {
+        "subsystem": "sys2",
+        "members": [
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            }
+        ]
+    },
+    {
+        "subsystem": "sys3",
+        "members": [
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "name1",
+                "title": "lead",
+                "profilePic": "/SRT_LOGO_icon.png",
+                "link": "https://linkedin.com"
+            }
+        ]
+    }
+]

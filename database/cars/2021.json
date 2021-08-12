@@ -1,0 +1,33 @@
+{
+    "name": "Stratos 2.0",
+    "image": "SRT_LOGO_icon.png",
+    "specs": [
+        {
+            "name": "spec1",
+            "image": "SRT_LOGO_icon.png",
+            "points": [
+                "pt1",
+                "pt2",
+                "pt3"
+            ]
+        },
+        {
+            "name": "spec2",
+            "image": "SRT_LOGO_icon.png",
+            "points": [
+                "pt1",
+                "pt2",
+                "pt3"
+            ]
+        },
+        {
+            "name": "spec3",
+            "image": "SRT_LOGO_icon.png",
+            "points": [
+                "pt1",
+                "pt2",
+                "pt3"
+            ]
+        }
+    ]
+}
