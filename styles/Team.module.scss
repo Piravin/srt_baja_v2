@@ -5,6 +5,10 @@
     justify-content: center;
     width: 100vw;
     max-width: 100%;
+    scroll-snap-align: start;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .title {
@@ -22,16 +26,40 @@
 
 .subsystem {
     scroll-snap-align: start;
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     padding: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .members {
     display: flex;
     flex-direction: row;
+}
+
+.member {
+    img {
+        width: 300px;
+        height: auto;
+    }
+    h3 {
+        margin: 5px;
+    }
+
+    &:nth-child(odd) {
+        transform: translateY(-25%);
+    }
+
+    &:nth-child(even) {
+        transform: translateY(25%);
+    }
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

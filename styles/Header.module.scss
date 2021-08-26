@@ -1,0 +1,80 @@
+.main {
+    height: 80px;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #111;
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Google Sans", "Roboto", sans-serif;
+    img {
+        height: 80px;
+        width: auto
+    }
+    p{
+        font-size: 1.2rem;
+        span {
+            font-size:1.6rem;
+        }
+        span:nth-child(1) {
+            color: rgb(231, 231, 60);
+        }
+        span:nth-child(2) {
+            color: rgb(255, 75, 75);
+        }
+        span:nth-child(3) {
+            color: rgb(53, 121, 211);
+        }
+    }
+}
+
+.navLinks {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .navLink {
+        width: 100px;
+        text-align: center;
+        position: relative;
+        font-size: 1.1rem;
+        font-family: "Google Sans", "Roboto", sans-serif;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 0;
+            border-radius: 5px;
+            height: 2px;
+            background-color: rgb(228, 96, 20);
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &:hover {
+            color: rgb(255, 113, 88);
+            &::after {
+                width: 25%;
+                transition: width 0.3s ease;
+            }
+        }
+    }
+
+    .navLinkActive {
+        font-weight: 600;
+        &::after {
+            width: 25%;
+            background-color: white;
+        }
+    }
+}

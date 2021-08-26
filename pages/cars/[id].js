@@ -4,6 +4,7 @@ import styles from '../../styles/Car.module.scss'
 import fs from 'fs'
 import path from 'path'
 import {getPathFromFileNames} from '../../utils/pathUtils'
+import Header from '../../components/header'
 
 export default function Team(props) {
     const year = props.year
@@ -17,6 +18,7 @@ export default function Team(props) {
                 <meta name="description" content={`${year} car of SASTRA Racing Team - Baja`}/>
                 <link rel="icon" href="/favicon.png"/>
             </Head>
+            <Header page="cars"/>
             <div className={styles.hero}>
                 <img src={`/images/${image}`} alt={name}/>
                 <h1>{name}</h1>

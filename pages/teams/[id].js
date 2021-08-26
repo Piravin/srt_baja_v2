@@ -4,17 +4,20 @@ import styles from '../../styles/Team.module.scss'
 import fs from 'fs'
 import path from 'path'
 import {getPathFromFileNames} from '../../utils/pathUtils'
+import Header from '../../components/header'
 
 export default function Team(props) {
     const year = props.year
     const subsystems = props.content
     return (
-        <div className={styles.main}>
+        <div className={styles.main}
+        style={{backgroundImage: `url(/images/white-bg.jpg)`}}>
             <Head>
                 <title>Team-{`${year}`} | SRT-Baja</title>
                 <meta name="description" content={`Members of SASTRA Racing Team - Baja in the year ${year}`}/>
                 <link rel="icon" href="/favicon.png"/>
             </Head>
+            <Header page="team"/>
             <div className={styles.title}><h1>Team-{`${year}`}</h1></div>
             <div className={styles.contents}>
                 {subsystems.map((subsystem, i) => (

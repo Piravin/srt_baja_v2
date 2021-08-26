@@ -7,10 +7,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Google Sans", "Roboto", sans-serif;
 }
 
 .landingSection {
-    padding-top:100px;
     width: 100vw;
     max-width: 100%;    
 
@@ -35,13 +35,18 @@
     padding: 20px;
 
     img {
-        height: 100px;
+        height: 70px;
     }
 
     .aboutContent {
         font-size: 1.5rem;
         text-align: center;
         margin: 2px;
+        max-width: 800px;
+        line-height: 2.2rem;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.08);
         p {
             margin:0;
         }
@@ -122,6 +127,25 @@
                 outline: 0;
                 box-shadow: 1px 5px 10px rgba(0,0,0,0.1),
                             1px 10px 30px 5px rgba(0,0,0,0.05);
+            }
+            textarea{
+                height: 200px;
+            }
+            button {
+                width: 120px;
+                margin: 20px;
+                height: 40px;
+                border-radius: 5px;
+                font-size: 1rem;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                color: white;
+                background-color: rgb(245, 123, 53);
+
+                &:hover{
+                    background-color: rgb(247, 145, 86);
+                }
             }
             @media (max-width: 800px) {
                 width: 100vw;
